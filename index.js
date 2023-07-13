@@ -32,7 +32,7 @@ mongoose.connect(process.env.MONGO_URI, {
     useUnifiedTopology: true,
 }).then(()=>{
     const Port = process.env.PORT || 3000;
-    app.listen(Port, ()=>{
+    app.listen(Port, ()=>{  // If Connected to the database, then start the servers
         console.log(`Server running on port ${Port}`);
     });
 })

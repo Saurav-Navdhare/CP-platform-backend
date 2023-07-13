@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
-const Role = new mongoose.Schema({
+const Role = new mongoose.Schema({  // Creating the schema
     name: {
         type: String,
         required: true,
-        trim: true
+        trim: true  // remove white spaces from both ends of the name, rest can be taken care by frontend
     },
     email: {
         type: String,
@@ -21,7 +21,7 @@ const Role = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        enum: ['admin', 'user']
+        enum: ['admin', 'user'] // only these two roles are allowed
     }
 })
 

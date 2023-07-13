@@ -6,7 +6,7 @@ const questionSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
-    testCases: [
+    testCases: [    // Array of test cases
         {
             input: "String",
             expectedOutput: "String"
