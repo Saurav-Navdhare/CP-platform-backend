@@ -15,10 +15,10 @@ You will need to get SphereEngine `COMPILER TOKEN`
 
 ## Documentation
 
-Link to [Documentation](https://documenter.getpostman.com/view/22857187/2s946eAE4S
-)
+API documentation: Link to [Documentation](https://documenter.getpostman.com/view/22857187/2s946eAE4S) generated using Postman
 
-
+## Hosted
+The Backend Server is lively hosted here, you can test the API's here: [CP-on-your-tips](https://cp-platform-backend-mzau.vercel.app/)
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
