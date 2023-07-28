@@ -1,8 +1,5 @@
 
 # CP on your TIPS
-
-This Project is a Competetive Coding like platform, it is an take home interview assignment by ``CometLabs``
-
 ## Authors
 
 - [@Saurav-Navdhare](https://www.github.com/Saurav-Navdhare/)
